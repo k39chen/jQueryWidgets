@@ -2,20 +2,70 @@
 <html>
 
 <head>
+	<title>jQuery [name]</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+	<!-- jQuery libraries -->
 	<script type="text/javascript" src="../lib/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="../lib/jquery.ui.widget-1.10.3.min.js"></script>
-	<script type="text/javascript" src="../src/jquery.[name].js"></script>
 	
+	<!-- CodeMirror libraries -->
+	<script type="text/javascript" src="../../ext/codemirror/3.19/lib/codemirror.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/mode/xml/xml.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/mode/javascript/javascript.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/mode/css/css.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/mode/htmlmixed/htmlmixed.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/keymap/extra.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/addon/selection/active-line.js"></script>
+	<script type="text/javascript" src="../../ext/codemirror/3.19/addon/edit/matchbrackets.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../ext/codemirror/3.19/lib/codemirror.css" />
+	<link rel="stylesheet" type="text/css" href="../../ext/codemirror/3.19/theme/monokai.css" />
+	
+	<!-- plugin libraries -->
+	<script type="text/javascript" src="../src/jquery.[name].js"></script>
 	<script type="text/javascript" src="js/demo.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 </head>
 
 <body>
 	<h1>jQuery [name]</h1>
-	<div id="demo-container">
+	
+	<p class="description">
+		[Description]
+	</p>
+	
+	<h2>Demo - See How It Works</h2>
+	
+	<iframe id="preview"></iframe>
+	
+	<h2>Code - Fiddle With This</h2>
+<!-- <<<<<<<<<<<< CODE EDITOR START >>>>>>>>>>>> -->
+<form id="code-container"><textarea id="code" name="code"><!DOCTYPE html>
+<html>
+	<head>
+		<!-- Include external dependencies -->
+		<script type="text/javascript" src="lib/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.ui.widget.min.js"></script>
+		<!-- Include jQuery [name] scripts-->
+		<script type="text/javascript" src="../src/jquery.[name].js"></script>
+		<!-- Include jQuery [name] styles -->
+		<style type="text/css">
+			#demo { width: 50px; height: 50px; background: rgb(200,100,150); border-radius: 50%; }
+		</style>
+	</head>
+	<body>
 		<div id="demo"></div>
-	</div>
+	
+		<script type="text/javascript">
+			console.log('I got this!');
+			$("#demo")["[name]"]();
+		</script>
+	
+	</body>
+</html></textarea></form>
+<!-- <<<<<<<<<<<< CODE EDITOR END >>>>>>>>>>>> -->
+	
 </body>
 
 </html>

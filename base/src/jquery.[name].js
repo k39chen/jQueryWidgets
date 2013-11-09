@@ -12,7 +12,7 @@ $.widget("jQuery.[name]", {
 		var self = this,
 			el = self.element;
 		
-		el.addClass('[class-name]');
+		el.addClass("[class-name]");
 		
 		// ...
 	},
@@ -27,7 +27,7 @@ $.widget("jQuery.[name]", {
 		var self = this,
 			el = self.element;
 			
-		el.removeClass('[class-name]');
+		el.removeClass("[class-name]");
 		
 		// ...
 	}
