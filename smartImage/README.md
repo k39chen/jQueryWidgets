@@ -10,11 +10,11 @@ Documentation
 
 Visit the jQuery SmartImage [here](http://www.student.cs.uwaterloo.ca/~k39chen):
 
-	* Installation
-	* Configuration
-	* API
-	* Usage
-	* Events
+	* [Installation](http://www.student.cs.uwaterloo.ca/~k39chen)
+	* [Configuration](http://www.student.cs.uwaterloo.ca/~k39chen)
+	* [API](http://www.student.cs.uwaterloo.ca/~k39chen)
+	* [Usage](http://www.student.cs.uwaterloo.ca/~k39chen)
+	* [Events](http://www.student.cs.uwaterloo.ca/~k39chen)
 	
 Download
 -------------
