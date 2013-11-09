@@ -1,0 +1,41 @@
+[Use this as a reference on how to write these READMEs](https://github.com/jsor/jcarousel/blob/master/README.md)
+
+jQuery [name]
+=============
+
+[description]
+
+Documentation
+-------------
+
+### Reference
+
+Visit the jQuery [name]  [here](http://www.student.cs.uwaterloo.ca/~k39chen):
+
+	* Installation
+	* Configuration
+	* API
+	* Usage
+	* Events
+	
+Download
+-------------
+
+All ready-to-use files are located in the [`dist/`](dist/) directory.
+
+Examples
+-------------
+
+You can find some example implementations in the [`examples/`](examples/)
+directory.
+
+Credits
+-------------
+
+jQuery [name] is written on top of [jQuery](http://jquery.com).
+
+License
+-------------
+
+Copyright (c) 2013 Kevin Chen.
+Released under the [MIT](LICENSE?raw=1) license.
