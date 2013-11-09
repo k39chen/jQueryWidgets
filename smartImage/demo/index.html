@@ -36,7 +36,7 @@
 	
 	<h2>Demo - See How It Works</h2>
 	
-	<div id="preview-container"><div id="preview"></div></div>
+	<iframe id="preview"></iframe>
 	
 	<h2>Code - Fiddle With This</h2>
 <!-- <<<<<<<<<<<< CODE EDITOR START >>>>>>>>>>>> -->
@@ -49,17 +49,14 @@
 		<!-- Include jQuery [name] scripts-->
 		<script type="text/javascript" src="../src/jquery.smartImage.js"></script>
 		<!-- Include jQuery [name] styles -->
-		<style type="text/css">
-			#demo { width: 50px; height: 50px; background: rgb(200,100,150); border-radius: 50%; }
-		</style>
+		<style type="text/css"></style>
 	</head>
 	<body>
-		<div id="demo"></div>
-		
-		<img src="res/one-piece.jpg" />
+		<img id="demo" src="res/one-piece.jpg" />
 	
 		<script type="text/javascript">
 			$("#demo").smartImage();
+			console.log("qwer");
 		</script>
 	
 	</body>

@@ -38,7 +38,10 @@ function initEditor() {
 	
 	function updatePreview() {
 		var previewFrame = document.getElementById('preview');
-		previewFrame.innerHTML = editor.getValue();
+		var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
+		preview.open();
+		preview.write(editor.getValue());
+		preview.close();
 	}
 
 	setTimeout(updatePreview, 300);

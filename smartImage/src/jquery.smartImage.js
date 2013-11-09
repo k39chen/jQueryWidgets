@@ -6,7 +6,8 @@
  */
 $.widget("jQuery.smartImage", {
 	options: {
-		// ...
+		width: "auto",
+		height: "auto",
 	},
 	_create: function(){
 		var self = this,
@@ -14,7 +15,9 @@ $.widget("jQuery.smartImage", {
 		
 		el.addClass("smartImage");
 		
-		// ...
+		//var wrapper = $("<div>").addClass("smartImage-wrapper").wrap(el);
+
+		//el.remove();
 	},
 	_setOptions: function(){
 		this._superApply(arguments);
