@@ -22,13 +22,16 @@ h2 {
 #demo-container {
 	margin: 32px 24px;
 }
-
-#preview {
+#preview-container {
 	width: 100%;
 	background: rgb(245,245,245);
 	border: solid 1px rgb(220,220,220);
 	box-shadow: inset 3px 3px 3px rgb(240,240,240);
 	text-align: center;
+	height: auto;
+}
+#preview {
+	margin: 24px;
 }
 
 #code-container {
