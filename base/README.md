@@ -1,5 +1,5 @@
-[Use this as a reference on how to write these READMEs](https://github.com/jsor/jcarousel/blob/master/README.md)
-
+Use [this] (https://github.com/jsor/jcarousel/blob/master/README.md)
+as a reference on how to write these READMEs]
 jQuery [name]
 =============
 
