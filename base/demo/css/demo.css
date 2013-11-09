@@ -1,0 +1,13 @@
+body {
+	font:13px Helvetica, arial, freesans, clean, sans-serif;
+	width: 900px;
+	margin: 24px auto;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;	
+	border-bottom: solid 1px rgb(200,200,200);
+}
+#demo-container {
+	margin: 32px 24px;
+}
