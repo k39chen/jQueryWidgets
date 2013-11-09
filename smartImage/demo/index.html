@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>jQuery [name]</title>
+	<title>jQuery SmartImage</title>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 
@@ -28,10 +28,10 @@
 </head>
 
 <body>
-	<h1>jQuery [name]</h1>
+	<h1>jQuery SmartImage</h1>
 	
 	<p class="description">
-		[Description]
+		jQuery SmartImage is a jQuery plugin which lets you present simple image tags exactly the way you want it. You specify the desired dimensions and it will automatically resize, crop, and position the image using the set of options available with this plugin.
 	</p>
 	
 	<h2>Demo - See How It Works</h2>
@@ -47,7 +47,7 @@
 		<script type="text/javascript" src="lib/jquery.min.js"></script>
 		<script type="text/javascript" src="lib/jquery.ui.widget.min.js"></script>
 		<!-- Include jQuery [name] scripts-->
-		<script type="text/javascript" src="../src/jquery.[name].js"></script>
+		<script type="text/javascript" src="../src/jquery.smartImage.js"></script>
 		<!-- Include jQuery [name] styles -->
 		<style type="text/css">
 			#demo { width: 50px; height: 50px; background: rgb(200,100,150); border-radius: 50%; }
@@ -57,8 +57,7 @@
 		<div id="demo"></div>
 	
 		<script type="text/javascript">
-			console.log('I got this!');
-			$("#demo")["[name]"]();
+			$("#demo").smartImage();
 		</script>
 	
 	</body>
