@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>jQuery SmartImage</title>
+
+	<!-- jQuery libraries -->
+	<script type="text/javascript" src="../lib/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../lib/jquery.ui.widget-1.10.3.min.js"></script>
+	
+	<!-- demo libraries -->
+	<link rel="stylesheet" type="text/css" href="../demo/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../demo/css/demo.css" />
+	
+	<script type="text/javascript" src="../src/jquery.smartImage.js"></script>
+	<style type="text/css">
+	.smartImage-wrapper { margin: 22px auto; border: solid 1px rgb(200,200,200); }
+	</style>
+</head>
+
+<body>
+	<h1>jQuery SmartImage</h1>
+	
+	<img id="demo" src="assets/one-piece.jpg" />
+
+	<script type="text/javascript">
+		$("#demo").smartImage({
+			width: 194,
+			height: 293,
+			imgSrc: "assets/one-piece.jpg"
+		});
+	</script>
+	
+</body>
+
+</html>

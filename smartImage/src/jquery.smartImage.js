@@ -15,8 +15,8 @@ $.widget("jQuery.smartImage", {
 		hRight: null,
 		hCenter: "0px",
 		imgSrc: null,
-		loadingGif: "res/loading.gif",
-		defaultImg: "res/default.png"
+		loadingGif: "assets/loading.gif",
+		defaultImg: "assets/default.png"
 	},
 	_create: function(){
 		var self = this,

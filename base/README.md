@@ -26,13 +26,13 @@ All ready-to-use files are located in the [`dist/`](dist/) directory.
 Examples
 -------------
 
-You can find some example implementations in the [`examples/`](examples/)
+You can find some example implementations in the [`demo/`](demo/)
 directory.
 
 Credits
 -------------
 
-jQuery [name] is written on top of [jQuery](http://jquery.com).
+jQuery [name] is written on top of [jQuery](http://jquery.com) and [jQuery UI](http://jqueryui.com).
 
 License
 -------------
