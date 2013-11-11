@@ -27,7 +27,8 @@ h2 {
 	background: rgb(245,245,245);
 	border: solid 1px rgb(220,220,220);
 	box-shadow: inset 3px 3px 3px rgb(240,240,240);
-	height: auto;
+	height: 340px;
+	text-align: center;
 }
 
 #code-container {

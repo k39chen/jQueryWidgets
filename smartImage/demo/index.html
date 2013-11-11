@@ -46,17 +46,22 @@
 		<!-- Include external dependencies -->
 		<script type="text/javascript" src="lib/jquery.min.js"></script>
 		<script type="text/javascript" src="lib/jquery.ui.widget.min.js"></script>
-		<!-- Include jQuery [name] scripts-->
+		<!-- Include jQuery SmartImage scripts-->
 		<script type="text/javascript" src="../src/jquery.smartImage.js"></script>
-		<!-- Include jQuery [name] styles -->
-		<style type="text/css"></style>
+		<!-- Include jQuery SmartImage styles -->
+		<style type="text/css">
+		.smartImage-wrapper { margin: 22px auto; border: solid 1px rgb(200,200,200); }
+		</style>
 	</head>
 	<body>
 		<img id="demo" src="res/one-piece.jpg" />
 	
 		<script type="text/javascript">
-			$("#demo").smartImage();
-			console.log("qwer");
+			$("#demo").smartImage({
+				width: 194,
+				height: 293,
+				imgSrc: "res/one-piece.jpg"
+			});
 		</script>
 	
 	</body>
