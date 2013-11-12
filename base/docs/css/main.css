@@ -67,6 +67,7 @@ body {
 }
 #banner .caption {
 	font-family: Rochester;
+	font-style: italic;
 	font-size: 28px;
 	color: rgb(80,80,80);
 }
@@ -79,7 +80,7 @@ body {
 	display: inline-block;
 	margin-right: 10px;
 	border-radius: 3px;
-	border: solid 1px rgb(30,30,30);
+	box-shadow: 0px 0px 50px rgb(80,80,80);
 }
 #banner .title {
 	font-family: Lobster Two;
@@ -123,20 +124,20 @@ body {
 	margin-bottom: 32px;
 	text-align: center;
 }
-#section-about {
+#section-get-started {
 	/*background: rgb(13,162,255);*/
 	height: 500px;
 }
-#section-about #browser-support {
+#section-get-started #browser-support {
 	text-align: center;
 }
-#section-about .browser {
+#section-get-started .browser {
 	width: 64px;
 	height: 64px;
 	opacity: 0.1;
 	cursor: pointer;
 }
-#section-about .browser.supported {
+#section-get-started .browser.supported {
 	opacity: 0.8;
 }
 #section-examples {
