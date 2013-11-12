@@ -2,7 +2,7 @@ body {
 	font-family: HelveticaNeue;
 	font-size: 16px;
 
-	background: rgb(60,60,60);
+	background: rgb(20,20,20);
 }
 .section {
 	width: 100%;
@@ -46,7 +46,6 @@ body {
 /** BANNER **/
 #banner {
 	background: rgb(20,20,20);
-	height: 700px;
 	color: rgb(255,255,255);
 }
 #banner-top {
@@ -60,7 +59,15 @@ body {
 	color: rgb(80,80,80);
 }
 #banner #demo {
-	height: 500px;
+	height: 450px;
+	text-align: center;
+	margin-top: 64px;
+}
+#banner .smartImage-wrapper {
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 3px;
+	border: solid 1px rgb(30,30,30);
 }
 #banner .title {
 	font-family: Lobster Two;
@@ -83,19 +90,38 @@ body {
 }
 
 /** **/
+.divider {
+	height: 1px;
+	margin: 70px 0 50px 0;
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,0));
+}
+.section {
+	background: rgb(20,20,20);
+}
+.section h1 {
+	color: rgb(255,255,255);
+	font-size: 36px;
+	font-family: HelveticaNeueUltLt;
+}
 #section-about {
-	background: rgb(100,100,100);
+	/*background: rgb(13,162,255);*/
 	height: 500px;
 }
 #section-examples {
-	background: rgb(100,100,100);
+	/*background: rgb(137,108,232);*/
 	height: 500px;
 }
 #section-documentation {
-	background: rgb(100,100,100);
+	/*background: rgb(58,156,138);*/
 	height: 500px;
 }
 #section-footer {
-	background: rgb(200,200,200);
-	height: 500px;
+	background: rgb(40,40,40);
+	border-top: solid 1px rgb(50,50,50);
+	text-align: center;
+}
+#copyright {
+	padding: 30px;
+	font-size: 14px;
+	color: rgb(150,150,150);
 }

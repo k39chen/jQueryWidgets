@@ -12,8 +12,10 @@ $(document).ready(function(){
 		start: {color: "#aaa"},
 		end: {color: "#fff"}
 	});
-	$("#download-btn").easyButton({
-		
-	});
+	$("#download-btn").easyButton();
+
+	$("#demo-1").smartImage({ width: 300, height: 250, hCenter: -32 });
+	$("#demo-2").smartImage({ width: 400, height: 400, hLeft: 0 });
+	$("#demo-3").smartImage({ width: 200, height: 200, hRight: -30 });
 
 });
