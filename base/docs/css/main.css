@@ -6,7 +6,6 @@ body {
 }
 .section {
 	width: 100%;
-	background: rgb(255,255,255);
 }
 .container {
 	width: 960px;
@@ -17,10 +16,14 @@ body {
 /** NAVBAR **/
 #navbar {
 	background: rgb(40,40,40);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(50,50,50)), to(rgb(30,30,30)));
 	border-bottom: solid 1px rgb(50,50,50);
 	box-shadow: 0px 1px 6px rgb(0,0,0);
 	height: 64px;
 	width: 100%;
+
+	position: fixed;
+	z-index: 9000;
 }
 #navbar .container {
 	position: static;
@@ -48,26 +51,29 @@ body {
 #navbar a {
 	text-decoration: none;
 }
+.nav-link {
+	cursor: pointer;
+}
 
 /** BANNER **/
 #banner {
-	background: rgb(20,20,20);
+	padding-top: 64px;
 	color: rgb(255,255,255);
 }
 #banner-top {
-	padding-top: 30px;
+	padding-top: 60px;
 	text-align: center;
 	width: 100%;
 }
 #banner .caption {
-	font-family: ProximaNova;
-	font-size: 17px;
+	font-family: Rochester;
+	font-size: 28px;
 	color: rgb(80,80,80);
 }
 #banner #demo {
 	height: 450px;
 	text-align: center;
-	margin-top: 64px;
+	margin-top: 96px;
 }
 #banner .smartImage-wrapper {
 	display: inline-block;
@@ -79,8 +85,10 @@ body {
 	font-family: Lobster Two;
 	font-style: italic;
 	font-size: 68px;
-	color: white;
-	margin-top: 22px;
+	color: rgb(200,200,200);
+	margin-top: 48px;
+	margin-bottom: 48px;
+	text-align: right;
 }
 #banner .title span {
 	font-style: normal;
@@ -96,23 +104,24 @@ body {
 }
 
 /** **/
-.divider {
-	height: 1px;
-	margin: 70px 0 0px 0;
-	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,0));
-}
 .anchor {
 	margin-bottom: 50px;
 	display: block;
 }
-.section {
-	background: rgb(20,20,20);
+#home.anchor {
+	margin-bottom: 0px;
+}
+.divider {
+	height: 1px;
+	margin: 0px 0 70px 0;
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,0));
 }
 .section h1 {
-	color: rgb(255,255,255);
+	color: rgb(150,150,150);
 	font-size: 36px;
 	font-family: HelveticaNeueUltLt;
 	margin-bottom: 32px;
+	text-align: center;
 }
 #section-about {
 	/*background: rgb(13,162,255);*/
@@ -122,10 +131,10 @@ body {
 	text-align: center;
 }
 #section-about .browser {
-	width: 96px;
-	height: 96px;
+	width: 64px;
+	height: 64px;
 	opacity: 0.1;
-	margin: 0px 8px;
+	cursor: pointer;
 }
 #section-about .browser.supported {
 	opacity: 0.8;

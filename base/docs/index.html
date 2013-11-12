@@ -9,7 +9,8 @@
 		<link rel="stylesheet" type="text/cs" href="css/main.css" />
 
 		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lobster' />
-		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' />
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' /><link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
 
 		<script type="text/javascript" src="lib/jquery.min.js"></script>
 		<script type="text/javascript" src="lib/jquery.ui.effect.min.js"></script>
@@ -25,15 +26,18 @@
 	</head>
 
 	<body>
+
+		<a class="anchor" id="home"></a>
+
 		<!-- navbar -->
-		<a id="home"></a>
 		<div id="navbar">
 			<div class="container wrapper">	
-				<div class="title pull-left"><a href="#home">jQuery <span>Widgets</span></a></div>
+				<div class="title pull-left"><a href="#">jQuery <span>Widgets</span></a></div>
 				<div class="nav pull-right wrapper">
-					<div class="nav-item"><a href="#about">About</a></div>
-					<div class="nav-item"><a href="#examples">Examples</a></div>
-					<div class="nav-item"><a href="#documentation">Documentation</a></div>
+					<div class="nav-item"><a class="nav-link" dest="#home">Home</a></div>
+					<div class="nav-item"><a class="nav-link" dest="#about">About</a></div>
+					<div class="nav-item"><a class="nav-link" dest="#examples">Examples</a></div>
+					<div class="nav-item"><a class="nav-link" dest="#documentation">Documentation</a></div>
 				</div>
 			</div>
 		</div>
@@ -41,7 +45,6 @@
 		<div id="banner">
 			<div class="container">
 				<div id="banner-top">
-
 						<div class="caption">
 							Never worry about cropping and resizing your images again.
 						</div>
@@ -54,14 +57,14 @@
 
 				</div>
 				<div id="banner-bottom" class="wrapper">
-					<div class="title pull-left">jQuery <span>SmartImage</span></div>
-					<div id="download-btn" class="button pull-right">DOWNLOAD NOW!</div>
+					<div class="title">jQuery <span>SmartImage</span></div>
+					<!--div id="download-btn" class="button pull-right">DOWNLOAD NOW!</div-->
 				</div>
 			</div>
 		</div>
-		<div class="divider"></div>
 		<!-- about -->
 		<a class="anchor" id="about"></a>
+		<div class="divider"></div>
 		<div id="section-about" class="section">
 			<!-- browser support -->
 			<!-- basic usage snippet: (CodeMirror: readOnly:nocursor) -->
@@ -70,25 +73,25 @@
 				<h1>About</h1>
 
 				<div id="browser-support">
-					<img class="browser supported" src="assets/images/chrome.png" />
-					<img class="browser" src="assets/images/safari.png" />
-					<img class="browser" src="assets/images/firefox.png" />
-					<img class="browser" src="assets/images/opera.png" />
-					<img class="browser" src="assets/images/explorer.png" />
+					<img id="chrome" class="browser supported" src="assets/images/chrome.png" />
+					<img id="safari" class="browser" src="assets/images/safari.png" />
+					<img id="firefox" class="browser" src="assets/images/firefox.png" />
+					<img id="opera" class="browser" src="assets/images/opera.png" />
+					<img id="explorer" class="browser" src="assets/images/explorer.png" />
 				</div>
 			</div>
 		</div>
-		<div class="divider"></div>
 		<!-- examples -->
 		<a class="anchor" id="examples"></a>
+		<div class="divider"></div>
 		<div id="section-examples" class="section">
 			<div class="container">
 				<h1>Examples</h1>
 			</div>
 		</div>
-		<div class="divider"></div>
 		<!-- documentation -->
 		<a class="anchor" id="documentation"></a>
+		<div class="divider"></div>
 		<div id="section-documentation" class="section">
 			<div class="container">
 				<h1>Documentation</h1>
