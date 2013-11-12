@@ -1,8 +1,10 @@
 /**
  * jquery.[name].js
  *
+ * @requires jquery
+ * @requires jquery.ui.widget
  * @author Kevin Chen <k39chen@gmail.com>
- * @copyright 20[date], Kevin Chen, All rights reserviced.
+ * @copyright 20[date], Kevin Chen, All rights reserved.
  */
 $.widget("jQuery.[name]", {
 	options: {

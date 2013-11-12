@@ -1,8 +1,10 @@
 /**
  * jquery.smartImage.js
  *
+ * @requires jquery
+ * @requires jquery.ui.widget
  * @author Kevin Chen <k39chen@gmail.com>
- * @copyright 2013, Kevin Chen, All rights reserviced.
+ * @copyright 2013, Kevin Chen, All rights reserved.
  */
 $.widget("jQuery.smartImage", {
 	options: {
