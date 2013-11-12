@@ -20,6 +20,7 @@ body {
 	border-bottom: solid 1px rgb(50,50,50);
 	box-shadow: 0px 1px 6px rgb(0,0,0);
 	height: 64px;
+	width: 100%;
 }
 #navbar .container {
 	position: static;
@@ -28,7 +29,6 @@ body {
 	font-family: Lobster Two;
 	font-style: italic;
 	font-size: 24px;
-	color: white;
 	margin-top: 22px;
 }
 #navbar .title span {
@@ -41,6 +41,12 @@ body {
 	padding: 0 12px;
 	display: inline-block;
 	cursor: pointer;
+}
+#navbar .title a {
+	color: white;
+}
+#navbar a {
+	text-decoration: none;
 }
 
 /** BANNER **/
@@ -92,8 +98,12 @@ body {
 /** **/
 .divider {
 	height: 1px;
-	margin: 70px 0 50px 0;
+	margin: 70px 0 0px 0;
 	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,0));
+}
+.anchor {
+	margin-bottom: 50px;
+	display: block;
 }
 .section {
 	background: rgb(20,20,20);
@@ -102,10 +112,23 @@ body {
 	color: rgb(255,255,255);
 	font-size: 36px;
 	font-family: HelveticaNeueUltLt;
+	margin-bottom: 32px;
 }
 #section-about {
 	/*background: rgb(13,162,255);*/
 	height: 500px;
+}
+#section-about #browser-support {
+	text-align: center;
+}
+#section-about .browser {
+	width: 96px;
+	height: 96px;
+	opacity: 0.1;
+	margin: 0px 8px;
+}
+#section-about .browser.supported {
+	opacity: 0.8;
 }
 #section-examples {
 	/*background: rgb(137,108,232);*/

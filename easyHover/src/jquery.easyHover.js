@@ -26,7 +26,7 @@
 				}
 			);
 		});
-		
+		return this;
 	}
 
 })(jQuery);

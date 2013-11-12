@@ -8,10 +8,14 @@
 $(document).ready(function(){
 
 
-	$(".nav-item").easyHover({
+	$(".nav-item a").easyHover({
 		start: {color: "#aaa"},
 		end: {color: "#fff"}
+	}).click(function(){
+		var anchor = $( $(this).attr("href") );
+		$("html,body").stop().animate({scrollTop:anchor.offset().top},300);
 	});
+
 	$("#download-btn").easyButton();
 
 	$("#demo-1").smartImage({ width: 300, height: 250, hCenter: -32 });
