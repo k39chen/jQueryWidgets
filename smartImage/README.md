@@ -18,6 +18,11 @@ Get Started!
 + All ready-to-use files are located in the [`dist/`](dist/) directory.
 + You can find documentation and more in-depth example usages in the [`demo/`](demo/) directory.
 
+### Dependencies
++ Be sure to include the following files:
+    + `jquery.js` or `jquery.min.js`
+    + `jquery.ui.widget.js` or `jquery.ui.widget.min.js`
+
 Credits
 -------------
 
