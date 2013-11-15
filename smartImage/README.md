@@ -15,8 +15,8 @@ $(".example").smartImage({
 Get Started!
 -------------
 
-+ All ready-to-use files are located in the `dist/` directory.
-+ You can find some example implementations in the `examples/` directory.
++ All ready-to-use files are located in the [`dist/`](dist/) directory.
++ You can find documentation and more in-depth example usages in the [`demo/`](demo/) directory.
 
 Credits
 -------------
