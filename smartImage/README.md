@@ -1,31 +1,22 @@
 jQuery SmartImage
 =============
 
-jQuery SmartImage is a jQuery plugin which lets you present simple image tags exactly the way you want it. You specify the desired dimensions and it will automatically resize, crop, and position the image using the set of options available with this plugin.
-
-Documentation
--------------
-
-### Reference
-
-Visit the jQuery SmartImage [here](http://www.student.cs.uwaterloo.ca/~k39chen):
-
-	* Installation
-	* Configuration
-	* API
-	* Usage
-	* Events
+[jQuery SmartImage]() is a jQuery plugin which lets you present simple image tags exactly the way you want it. You specify the desired dimensions and it will automatically resize, crop, and position the image using the set of options available with this plugin.
 	
-Download
+It's as easy as:
+
+``````````````````
+$(".example").smartImage({
+    width: 640,
+    height: 320
+});
+``````````````````
+	
+Get Started!
 -------------
 
-All ready-to-use files are located in the [`dist/`](dist/) directory.
-
-Examples
--------------
-
-You can find some example implementations in the [`examples/`](examples/)
-directory.
++ All ready-to-use files are located in the `dist/` directory.
++ You can find some example implementations in the `examples/` directory.
 
 Credits
 -------------
@@ -36,4 +27,3 @@ License
 -------------
 
 Copyright (c) 2013 Kevin Chen.
-Released under the [MIT](LICENSE?raw=1) license.
