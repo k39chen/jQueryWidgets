@@ -14,3 +14,6 @@ Repository of easy-to-use jQuery widgets (probably thought up while working on s
 License
 -------------
 Copyright (c) 2013 Kevin Chen.
+
+_______________
+**This project is no longer being developed or supported.**
